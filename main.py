@@ -15,3 +15,6 @@ for question in question_data:
 quiz = QuizBrain(question_bank)
 quiz.next_question()
 
+while quiz.stil_has_questons():
+    quiz.next_question()
+
